@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Hero from './components/Hero'
+import { hero } from './Data/travigodata'
 
 const App = () => {
   return (
-    <div>
-      <h1>Have g Good Day!</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero hero={hero} />
+      <Footer />
+    </>
   )
 }
 
