@@ -5,7 +5,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  "files.associations": { "*.scss": "postcss" }
 }
 
 
